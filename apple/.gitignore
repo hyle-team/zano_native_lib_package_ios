@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:835a922c21f2f2c481698793aec2bbcb1f9723889b93f1928be851af9ec2e6f7
-size 159
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
