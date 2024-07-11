@@ -1,1 +1,1 @@
-apple/Dependencies/** filter=lfs diff=lfs merge=lfs -text
+Dependencies/** filter=lfs diff=lfs merge=lfs -text
