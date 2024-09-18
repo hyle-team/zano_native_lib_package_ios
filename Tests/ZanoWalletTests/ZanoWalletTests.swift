@@ -22,7 +22,7 @@ final class ZanoWalletTests: XCTestCase {
         XCTAssertEqual(ZanoWallet.hwallet(), 0, "hwallet() should give zero.")
         // 2.0.0.317[cc79aa8]
         XCTAssertEqual(ZanoWallet.get_versionTest() , "2.0.0.317", "get_version() should give correct version.")
-        XCTAssertEqual(ZanoWallet.get_version(), "2.0.0.317[cc79aa8]", "get_version() should give correct version.")
+        XCTAssertEqual(ZanoWallet.get_version(), "2.0.0.336[132d2bf]", "get_version() should give correct version.")
 
 
         print(tag, "testInitAddress:", ZanoWallet.testInitAddress("", "", 0))
