@@ -1,0 +1,234 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "zano_ios",
+    "printedName": "zano_ios",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zano_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CxxStdlib",
+        "printedName": "CxxStdlib",
+        "declKind": "Import",
+        "moduleName": "zano_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "wallet",
+        "printedName": "wallet",
+        "declKind": "Import",
+        "moduleName": "zano_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Zano",
+        "printedName": "Zano",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "helloWorld",
+            "printedName": "helloWorld(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8zano_ios4ZanoC10helloWorld4nameS2S_tFZ",
+            "mangledName": "$s8zano_ios4ZanoC10helloWorld4nameS2S_tFZ",
+            "moduleName": "zano_ios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fibonacci",
+            "printedName": "fibonacci(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8zano_ios4ZanoC9fibonacciyS2iFZ",
+            "mangledName": "$s8zano_ios4ZanoC9fibonacciyS2iFZ",
+            "moduleName": "zano_ios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "factorial",
+            "printedName": "factorial(n:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8zano_ios4ZanoC9factorial1nS2i_tFZ",
+            "mangledName": "$s8zano_ios4ZanoC9factorial1nS2i_tFZ",
+            "moduleName": "zano_ios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8zano_ios4ZanoC",
+        "mangledName": "$s8zano_ios4ZanoC",
+        "moduleName": "zano_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZanoWallet",
+        "printedName": "ZanoWallet",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get_versionCppTest",
+            "printedName": "get_versionCppTest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8zano_ios10ZanoWalletO18get_versionCppTestSSyFZ",
+            "mangledName": "$s8zano_ios10ZanoWalletO18get_versionCppTestSSyFZ",
+            "moduleName": "zano_ios",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "get_versionCpp",
+            "printedName": "get_versionCpp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8zano_ios10ZanoWalletO14get_versionCppSSyFZ",
+            "mangledName": "$s8zano_ios10ZanoWalletO14get_versionCppSSyFZ",
+            "moduleName": "zano_ios",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8zano_ios10ZanoWalletO",
+        "mangledName": "$s8zano_ios10ZanoWalletO",
+        "moduleName": "zano_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,6 @@
+framework module zano_ios {
+  umbrella header "zano_ios.h"
+  export *
+
+  module * { export * }
+}

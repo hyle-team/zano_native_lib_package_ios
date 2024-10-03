@@ -1,9 +1,0 @@
-//framework module wallet {
-module wallet {
-//    header "../../../zano_native_lib/zano/src/wallet/plain_wallet_api.h"
-    header "../Dependencies/libwallet.a.xcframework/ios-arm64/Headers/plain_wallet_api.h"
-//    umbrella header "tree.h"
-
-    export *
-//    module * { export * }
-}
