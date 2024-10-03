@@ -1,1 +1,4 @@
 Dependencies/** filter=lfs diff=lfs merge=lfs -text
+zano-ios/Dependencies/libboost.xcframework/ios-arm64_x86_64-simulator/libboost.a filter=lfs diff=lfs merge=lfs -text
+zano-ios/Dependencies/libwallet.a.xcframework/ios-arm64_x86_64-simulator/libwallet.a filter=lfs diff=lfs merge=lfs -text
+zano-ios/Dependencies/libcurrency_core.a.xcframework/ios-arm64_x86_64-simulator/libcurrency_core.a filter=lfs diff=lfs merge=lfs -text
